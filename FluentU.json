@@ -1,0 +1,71 @@
+{
+  "timeline": {
+    "background": "#000000",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "html",
+              "html": "<p>Holla.</p>",
+              "css": "p {color: #fff; font-size: 46px}",
+              "width": 250,
+              "height": 80
+            },
+            "offset": {
+              "y": -0.0694
+            },
+            "position": "top",
+            "transition": {
+              "in": "slideDown",
+              "out": "slideLeft"
+            },
+            "start": 0.52,
+            "length": 1.13
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://github.com/Grifano/shotstack-assets/raw/main/%5Bxx-XX%20es-CO%20Duets%20U1-L1%5D%20Hola%2C%20cmo%20ests%20_Hello!%20How%20are%20you%20(with%20captions).mp4"
+            },
+            "start": 0,
+            "length": 8.2
+          },
+          {
+            "asset": {
+              "type": "audio",
+              "src": "https://github.com/Grifano/shotstack-assets/raw/main/%5Bxx-XX%20es-CO%20Duets%20U1-L1%5D%20Hola%2C%20cmo%20ests%20_Hello!%20How%20are%20you%20(with%20captions)%20(audio-extractor.net).mp3"
+            },
+            "start": 0,
+            "length": 8.2
+          },
+          {
+            "asset": {
+              "type": "image",
+              "src": "https://raw.githubusercontent.com/Grifano/shotstack-assets/bd43575e6ca3e40786a6265795566743cc188099/text__field.svg"
+            },
+            "length": 1.13,
+            "start": 0.52,
+            "offset": {
+              "y": -0.0683
+            },
+            "position": "top",
+            "fit": "none",
+            "transition": {
+              "in": "slideDown",
+              "out": "slideLeft"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "resolution": "sd"
+  }
+}
